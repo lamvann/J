@@ -1,0 +1,100 @@
+dir jpath'~temp'
+$dir jpath'~temp'
+dr
+dr =: 1!:0
+dr jpath'~temp'
+dr jpath'~temp/*'
+\
++/i.22
+*/i.22
+*/(1+i.22)
+*/(1+i.3)
+*/(1+i.4)
+!5
+!4
+!:
+!: 3
+2!: 3
+0!:0 <jpath'~temp/definitions.ijs'
+LOADED
+LOADED_j_
+Tokenize=:((0;2 2 2$0 0 1 1 0 3 1 0)"_ ,<@:<@:({.:[));:]
+Tokenize=:((0;2 2 2$0 0 1 1 0 3 1 0)"_ ,<@:<@:({. :[));:]
+'/'Tokenize '1234/4/asdfasf//'
+i.4 5
+i.'A'
+a.i.'B'
+a.i.'b'
+(a.i.'A')+i.4 5
+a.{(a.i.'A')+i.4 5
+a.{~(a.i.'A')+i.4 5
+s =. a.{~(a.i.'A')+i.4 5
+m=:3 1 0 2 1
+s;m
+s;m;m}s
+s f.
+s
+m
+m}s
+a=:3 3 $ 'abcdef'
+~a
+coclass
+coclass f.
+<<<<'he'
+boxxopen<<<<'he'
+a
+~.a
+=a
+i.10
+=i.10
+=i.1
+=i.2
+=i.2 3
+i.2 3
+2 3 i. 'a b'
+2 3 i. 'a'
+2 3 i. 3
+a.'A'
+a.i.'A' + i. 4 5
+(a.i.'A') + i. 4 5
+ln
+<
+<'asf'
+wrap f.
+i. 20
++/ i. 20
+*/ i. 20
+*/ 1 + i. 20
+(%#)  i. 20
+(% #)  i. 20
+(#% )  i. 20
+(#%+/ )  i. 20
+(#%~+/ )  i. 20
+(#%~+/ )  1 + i. 20
+table
+type table
+type <table
+type <'table'
+type
+(0 1) *. table ( 1 )
+(0 1) *. table ( 1 1)
+(0 1) *. table (1 1)
+(0 1) +. table (1 1)
+a.1 + i.10
+a. 1 + i.10
+a.i.'I'
+a.i.'K'
+a.i.'A'
+g
+?2?100
+assert f.
+which'assert'
+which
+type 'assert'
+assert
+12c
+12 c
+ures
+type 'ures'
+o
+{.1!:0
